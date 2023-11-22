@@ -6,7 +6,7 @@ extends Control
 
 
 func _on_btn_jogar_pressed():
-	get_tree().change_scene_to_file("res://Cenas/inicio.tscn")
+	get_tree().change_scene_to_file("res://Cenas/primeira_noite.tscn")
 
 func _on_btn_creditos_pressed():
 	get_tree().change_scene_to_file("res://Cenas/creditos.tscn")
