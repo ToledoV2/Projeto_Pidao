@@ -17,13 +17,15 @@ config/icon="res://icon.svg"
 
 [display]
 
+window/size/viewport_width=1600
+window/size/viewport_height=800
 window/stretch/mode="viewport"
 window/canvas_textures/default_texture_filter=1
 
 [layer_names]
 
 2d_physics/layer_1="player"
-2d_physics/layer_2="mundo"
+2d_physics/layer_2="Arvores"
 2d_physics/layer_3="inimigos"
 2d_physics/layer_4="itens"
 

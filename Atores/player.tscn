@@ -1,12 +1,53 @@
-[gd_scene load_steps=29 format=3 uid="uid://cdbn7upfpeaoy"]
+[gd_scene load_steps=40 format=3 uid="uid://cdbn7upfpeaoy"]
 
 [ext_resource type="Script" path="res://Cenas/Scripts/player.gd" id="1_nibvh"]
 [ext_resource type="Texture2D" uid="uid://damb6pn7idfy2" path="res://Assets/Sombra_Idle_Sheet.png" id="2_j3mvk"]
+[ext_resource type="Texture2D" uid="uid://dn6j3oitjthi3" path="res://Assets/Sombra_Ataque_Sheet (1).png" id="2_nkuvm"]
 [ext_resource type="Texture2D" uid="uid://bsqtujnkmvmhx" path="res://Assets/Sombra_run_Sheet.png" id="3_8mc0g"]
 [ext_resource type="Texture2D" uid="uid://8crt8ry1ekqf" path="res://Assets/Sombra_walk v2.png" id="4_pa3kr"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_o52wi"]
-size = Vector2(35.4831, 13.5699)
+size = Vector2(25.0928, 7.52337)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7foc4"]
+atlas = ExtResource("2_nkuvm")
+region = Rect2(0, 0, 40, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iirx2"]
+atlas = ExtResource("2_nkuvm")
+region = Rect2(40, 0, 40, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gswjs"]
+atlas = ExtResource("2_nkuvm")
+region = Rect2(80, 0, 40, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ocri5"]
+atlas = ExtResource("2_nkuvm")
+region = Rect2(120, 0, 40, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8p46v"]
+atlas = ExtResource("2_nkuvm")
+region = Rect2(160, 0, 40, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2aui7"]
+atlas = ExtResource("2_nkuvm")
+region = Rect2(200, 0, 40, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5re6b"]
+atlas = ExtResource("2_nkuvm")
+region = Rect2(240, 0, 40, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5e6ey"]
+atlas = ExtResource("2_nkuvm")
+region = Rect2(280, 0, 40, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_glxu8"]
+atlas = ExtResource("2_nkuvm")
+region = Rect2(320, 0, 40, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jxcgw"]
+atlas = ExtResource("2_nkuvm")
+region = Rect2(360, 0, 40, 21)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_lld2l"]
 atlas = ExtResource("2_j3mvk")
@@ -100,6 +141,41 @@ region = Rect2(78, 0, 26, 25)
 animations = [{
 "frames": [{
 "duration": 1.0,
+"texture": SubResource("AtlasTexture_7foc4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iirx2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gswjs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ocri5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8p46v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2aui7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5re6b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5e6ey")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_glxu8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jxcgw")
+}],
+"loop": true,
+"name": &"Ataque",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_lld2l")
 }, {
 "duration": 1.0,
@@ -182,16 +258,18 @@ animations = [{
 
 [node name="player" type="CharacterBody2D"]
 position = Vector2(506.045, 339)
-scale = Vector2(5.165, 5.165)
+scale = Vector2(3.19705, 3.60742)
 script = ExtResource("1_nibvh")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(17, 13)
+position = Vector2(11.8719, 17.7412)
 scale = Vector2(0.648196, 1.40015)
 shape = SubResource("RectangleShape2D_o52wi")
 
 [node name="CameraPlayer" type="Camera2D" parent="."]
-position = Vector2(0.37851, -0.774437)
+position = Vector2(44.526, 2)
+scale = Vector2(0.965106, 0.800552)
+zoom = Vector2(6, 5)
 limit_left = 0
 editor_draw_limits = true
 
@@ -199,7 +277,9 @@ editor_draw_limits = true
 root_node = NodePath("../anim")
 
 [node name="anim" type="AnimatedSprite2D" parent="."]
-position = Vector2(18, 13)
+position = Vector2(11.0991, 17.8629)
+scale = Vector2(0.539099, 0.539601)
 sprite_frames = SubResource("SpriteFrames_iaqxw")
-animation = &"Walk"
+animation = &"Idle"
 autoplay = "Idle"
+frame_progress = 0.116128
