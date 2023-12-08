@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://710xij52n3vy"
-path="res://.godot/imported/ceu_amanhecendo .png-d813c7ed066491914db9ba44d221b56f.ctex"
+uid="uid://b6ssroib1cc48"
+path="res://.godot/imported/cerca_particulas.png-d0b44d00d450f586cf12536e1783f7ab.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Cenarios/ceu_amanhecendo .png"
-dest_files=["res://.godot/imported/ceu_amanhecendo .png-d813c7ed066491914db9ba44d221b56f.ctex"]
+source_file="res://addons/dialogic/cerca_particulas.png"
+dest_files=["res://.godot/imported/cerca_particulas.png-d0b44d00d450f586cf12536e1783f7ab.ctex"]
 
 [params]
 

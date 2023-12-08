@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://710xij52n3vy"
-path="res://.godot/imported/ceu_amanhecendo .png-d813c7ed066491914db9ba44d221b56f.ctex"
+uid="uid://br2yxur7v0o7w"
+path="res://.godot/imported/casa_cima.png-eb6c760ef8b256c915d90780608f1c68.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Cenarios/ceu_amanhecendo .png"
-dest_files=["res://.godot/imported/ceu_amanhecendo .png-d813c7ed066491914db9ba44d221b56f.ctex"]
+source_file="res://Cenarios/Noite 3/casa_cima.png"
+dest_files=["res://.godot/imported/casa_cima.png-eb6c760ef8b256c915d90780608f1c68.ctex"]
 
 [params]
 

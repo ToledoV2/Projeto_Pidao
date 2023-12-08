@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://710xij52n3vy"
-path="res://.godot/imported/ceu_amanhecendo .png-d813c7ed066491914db9ba44d221b56f.ctex"
+uid="uid://bc652sawnjj6a"
+path="res://.godot/imported/posto visualizer.png-c0025929d88a51992e60888dd7ac90a9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Cenarios/ceu_amanhecendo .png"
-dest_files=["res://.godot/imported/ceu_amanhecendo .png-d813c7ed066491914db9ba44d221b56f.ctex"]
+source_file="res://Cenarios/Noite 2/posto visualizer.png"
+dest_files=["res://.godot/imported/posto visualizer.png-c0025929d88a51992e60888dd7ac90a9.ctex"]
 
 [params]
 

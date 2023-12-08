@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://710xij52n3vy"
-path="res://.godot/imported/ceu_amanhecendo .png-d813c7ed066491914db9ba44d221b56f.ctex"
+uid="uid://d1umfbpjbsabn"
+path="res://.godot/imported/carro_posto.png-ed1b515e6de61fbb23f5ae9ce49b128e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Cenarios/ceu_amanhecendo .png"
-dest_files=["res://.godot/imported/ceu_amanhecendo .png-d813c7ed066491914db9ba44d221b56f.ctex"]
+source_file="res://Cenarios/Noite 2/carro_posto.png"
+dest_files=["res://.godot/imported/carro_posto.png-ed1b515e6de61fbb23f5ae9ce49b128e.ctex"]
 
 [params]
 

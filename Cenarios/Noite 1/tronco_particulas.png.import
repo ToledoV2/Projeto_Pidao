@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://8crt8ry1ekqf"
-path="res://.godot/imported/Sombra_walk v2.png-3229f2173f7afbbc36d9c50fc8f06952.ctex"
+uid="uid://cciwe7o1uqrcr"
+path="res://.godot/imported/tronco_particulas.png-5cbbaba0f6610f61ea2cd798fd5a2b15.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sombra_walk v2.png"
-dest_files=["res://.godot/imported/Sombra_walk v2.png-3229f2173f7afbbc36d9c50fc8f06952.ctex"]
+source_file="res://Cenarios/Noite 1/tronco_particulas.png"
+dest_files=["res://.godot/imported/tronco_particulas.png-5cbbaba0f6610f61ea2cd798fd5a2b15.ctex"]
 
 [params]
 

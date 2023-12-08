@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://damb6pn7idfy2"
-path="res://.godot/imported/Sombra_Idle_Sheet.png-337cdb03263e3f7c05e9952dbfff1d66.ctex"
+uid="uid://4ghklwwj5fyc"
+path="res://.godot/imported/Sombra_Ataque_Sheet (8).png-0aae80d1c5fc13e169c3c9032c74d346.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sombra_Idle_Sheet.png"
-dest_files=["res://.godot/imported/Sombra_Idle_Sheet.png-337cdb03263e3f7c05e9952dbfff1d66.ctex"]
+source_file="res://Assets/Sombra/Sombra_Ataque_Sheet (8).png"
+dest_files=["res://.godot/imported/Sombra_Ataque_Sheet (8).png-0aae80d1c5fc13e169c3c9032c74d346.ctex"]
 
 [params]
 

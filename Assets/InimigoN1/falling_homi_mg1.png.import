@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://710xij52n3vy"
-path="res://.godot/imported/ceu_amanhecendo .png-d813c7ed066491914db9ba44d221b56f.ctex"
+uid="uid://dtnp2sk5rmiss"
+path="res://.godot/imported/falling_homi_mg1.png-f2d4115adffba06c40e7d611b9bff593.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Cenarios/ceu_amanhecendo .png"
-dest_files=["res://.godot/imported/ceu_amanhecendo .png-d813c7ed066491914db9ba44d221b56f.ctex"]
+source_file="res://Assets/InimigoN1/falling_homi_mg1.png"
+dest_files=["res://.godot/imported/falling_homi_mg1.png-f2d4115adffba06c40e7d611b9bff593.ctex"]
 
 [params]
 

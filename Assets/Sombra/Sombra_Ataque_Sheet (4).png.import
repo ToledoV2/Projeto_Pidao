@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://710xij52n3vy"
-path="res://.godot/imported/ceu_amanhecendo .png-d813c7ed066491914db9ba44d221b56f.ctex"
+uid="uid://d2mfs1pi0mx1g"
+path="res://.godot/imported/Sombra_Ataque_Sheet (4).png-012ffacacd54b92d5a54da7e1f6b6b0f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Cenarios/ceu_amanhecendo .png"
-dest_files=["res://.godot/imported/ceu_amanhecendo .png-d813c7ed066491914db9ba44d221b56f.ctex"]
+source_file="res://Assets/Sombra/Sombra_Ataque_Sheet (4).png"
+dest_files=["res://.godot/imported/Sombra_Ataque_Sheet (4).png-012ffacacd54b92d5a54da7e1f6b6b0f.ctex"]
 
 [params]
 
